@@ -1,1 +1,8 @@
+node {
+ stage('Get All Files') {
+ //list files(windows)
+ bat 'dir'
+}
+}
+
 
